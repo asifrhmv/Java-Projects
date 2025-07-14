@@ -617,5 +617,246 @@ public class Main {
 //
 //        System.out.println(products);
 
+//-------------------------------------------------------------------------------------------
+
+//LinkedHashSet<String>users=new LinkedHashSet<>();
+//Scanner scan=new Scanner(System.in);
+//        System.out.println("Istifadechileri daxil edin:");
+//int i=0;
+//while(i<5){
+//    System.out.println("Istifadeci adi:");
+//    String ad=scan.nextLine();
+//    if(users.contains(ad)){
+//        System.out.println("Ad artiq daxil edilib !");
+//    }
+//    else {
+//        users.add(ad);
+//        i++;
+//    }
+//}
+//
+//        System.out.println(users);
+
+//        PriorityQueue<Musteri>pq=new PriorityQueue<>(
+//                (m1,m2)->Integer.compare(m1.prioritet,m2.prioritet)
+//        );
+//
+//        pq.offer(new Musteri("Asif",1));
+//        pq.offer(new Musteri("Azer",3));
+//        pq.offer(new Musteri("Togrul",2));
+//        pq.offer(new Musteri("Umud",4));
+//
+//pq.poll();
+
+//        List<String>users=new ArrayList<>(Arrays.asList("Asif","Murad","Senan","Asif","Umud","Nicat","Togrul","Azer","Murad"));
+//        Set<String>uniqueUsers=new HashSet<>(users);
+//        System.out.println(uniqueUsers);
+
+
+//        PriorityQueue<Musteri>pq=new PriorityQueue<>(
+//                (m1,m2)->Integer.compare(m1.prioritet, m2.prioritet)
+//        );
+//Scanner scan=new Scanner(System.in);
+//        System.out.println("5 istifadeci daxil edin !");
+//        int i=0;
+//        while(i<5){
+//            System.out.println("Mushterinin adini daxil edin !");
+//            String ad=scan.nextLine();
+//            System.out.println("Mushterinin prioritetini daxil edin !");
+//            int prioritet= scan.nextInt();
+//            scan.nextLine();
+//            pq.offer(new Musteri(ad,prioritet));
+//            i++;
+//        }
+//
+//        System.out.println(pq.peek());
+
+
+//        List<String>users=new ArrayList<>(Arrays.asList("Anar","Maqsud","Malik","Hikmet","Cavanshir","Merdan","Anar"));
+//
+//        Set<String>uqusers=new TreeSet<>(users);
+//
+//        System.out.println(uqusers);
+
+//
+//        Map<String,Integer>people=new HashMap<>();
+//
+//        people.put("Asif",25);
+//        people.put("Azer",17);
+//        people.put("Gunay",45);
+//        people.put("Irade",65);
+//
+//        List<String>below18=new ArrayList<>();
+//        List<String>btw18and40=new ArrayList<>();
+//        List<String>above40=new ArrayList<>();
+//
+//        for (Map.Entry<String,Integer>entry:people.entrySet()){
+
+//        }
+
+
+
+
+//        List<String>langs=new ArrayList<>(Arrays.asList("Java","C++","Python","Go"));
+//
+//        langs.add("C#");
+//        langs.remove("C++");
+//        System.out.println(langs);
+
+//        Scanner scan=new Scanner(System.in);
+//        System.out.println("Axtarish etmek ucun ad daxil edin:");
+//        String ad=scan.nextLine();
+//        if(langs.contains(ad)){
+//            System.out.println("Daxil etdiyiniz dil siyahida var !");
+//        }
+//        else {
+//            System.out.println("Daxil etdiyiniz ad siyahida yoxdur !");
+//        }
+
+
+//Collections.reverse(langs);
+
+
+//        ArrayList<Integer>nums=new ArrayList<>();
+//        Scanner scan=new Scanner(System.in);
+//        int i=0;
+//        int toplam=0;
+//
+//        while(i<10) {
+//            System.out.println("Eded daxil edin !");
+//            int eded = scan.nextInt();
+//            scan.nextLine();
+//            nums.add(eded);
+//            toplam += eded;
+//i++;
+//        }
+//        int average = toplam / nums.size();
+//        System.out.println("Daxil etdiyiniz ededlerin ortalamasi:"+average);
+
+
+//  List<Integer>nums=new ArrayList<>(Arrays.asList(2,3,4,5,6,3,5,8,9));
+//
+//  Set<Integer>unique=new HashSet<>(nums);
+//
+//  List<Integer>uqNums=new ArrayList<>(unique);
+//
+//        System.out.println(uqNums);
+
+//LinkedList<Integer>nums=new LinkedList<>(Arrays.asList(2,3,4,5,6,3,1));
+//
+//nums.addFirst(5);
+//nums.addLast(6);
+//
+//        System.out.println(nums);
+//
+//        nums.getFirst();
+//        nums.getLast();
+//        nums.removeFirst();
+//        nums.removeLast();
+//        System.out.println(nums);
+
+
+//Vector<String>langs=new Vector<>(Arrays.asList("Java","Python","C++","Go","Python"));
+//
+//langs.remove("Python");
+//
+//        System.out.println(langs);
+//        System.out.println(langs.size());
+
+
+//Stack<Integer>nums=new Stack<>();
+//Scanner scan=new Scanner(System.in);
+//int i=0;
+//while(i<5){
+//    System.out.println("Ededi daxil edin");
+//    int eded= scan.nextInt();
+//    scan.nextLine();
+//    nums.push(eded);
+//    i++;
+//}
+//        System.out.println("Hal hazirki en ust reqem:"+nums.peek());
+//nums.pop();
+//        System.out.println("Hal hazirki en ust reqem:"+nums.peek());
+
+
+
+//        List<String>names=new ArrayList<>();
+//        Scanner scan=new Scanner(System.in);
+//        int i=0;
+//        System.out.println("5 eded istifadechi adi daxil edin:");
+//        while(i<5){
+//            System.out.println("Ad:");
+//            String ad= scan.nextLine();
+//            if (names.contains(ad)){
+//                System.out.println("Ad artiq daxil edilib !");
+//            }
+//            else{
+//                System.out.println("Ad ugurla daxil edildi !");
+//                names.add(ad);
+//                i++;
+//            }
+//        }
+//
+//        System.out.println(names);
+
+//        List<Integer>nums=new ArrayList<>();
+//        Scanner scan=new Scanner(System.in);
+//        int i=0;
+//        int toplam=0;
+//        System.out.println("Ortalamsi tapilacaq 5 ededi daxil edin:");
+//        while(i<5){
+//            System.out.println("Eded "+(i+1)+":");
+//            int eded= scan.nextInt();
+//            scan.nextLine();
+//            if(nums.contains(eded)){
+//                System.out.println("Eded artiq daxil edilib:");
+//            }
+//            else {
+//                nums.add(eded);
+//                toplam+=eded;
+//                i++;
+//            }
+//        }
+//
+//        double ortalama=(double) toplam/nums.size();
+//        System.out.println("Ededlerin ortalamasi:"+ortalama);
+
+
+
+//        List<Integer>nums=new ArrayList<>(Arrays.asList(2,3,4,5,6,3,8,2,1));
+//        Set<Integer>nums1=new HashSet<>(nums);
+//        List<Integer>uqNums=new ArrayList<>(nums1);
+//        System.out.println(uqNums);
+
+
+Map<String,Integer>employees=new HashMap<>();
+Scanner scan=new Scanner(System.in);
+int i=0;
+while(i<5){
+    System.out.println("Adi daxil edin:");
+    String ad=scan.nextLine();
+    System.out.println("MAashi daxil edin:");
+    int maash= scan.nextInt();;
+    scan.nextLine();
+    if(employees.containsKey(ad)){
+        System.out.println("Daxil etdiyiniz ad artiq sistemde var !");
+    }
+    else if (employees.containsValue(maash)) {
+        System.out.println("Daxil etdiyiniz maash artiq sistemde var !");
+    }
+    else {
+        employees.put(ad,maash);
+        i++;
+    }
+}List<Map.Entry<String,Integer>>siyahi=new ArrayList<>(employees.entrySet());
+siyahi.sort((e1,e2)->e2.getValue()-e1.getValue());
+
+for(Map.Entry<String,Integer>entry:siyahi){
+    System.out.println(entry.getKey()+" -> "+entry.getValue());
+}
+
+
+
+
     }
 }
